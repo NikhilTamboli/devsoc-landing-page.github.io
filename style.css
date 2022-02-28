@@ -583,13 +583,18 @@ body, html{
     }
 }
 
-.icon{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
-    background-position: 50%;
-    
+@media screen and (min-width: 600px){
+    #dsIcon{
+        width: 10%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #dsIcon{
+        width: 25%;
+        height: 25%;
+    }
 }
 
 @media screen and (min-width: 600px){
